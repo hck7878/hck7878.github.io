@@ -1,4 +1,4 @@
-var posts=["2025/03/23/bilibili/","2025/03/23/hello-world/","2025/03/23/网站地址/","2025/03/23/lmx/","2025/03/23/网站说明/"];function toRandomPost(){
+var posts=["2025/03/23/bilibili/","2025/03/23/hello-world/","2025/03/23/网站地址/","2025/03/23/lmx/","2025/03/23/网站说明/","2025/04/04/中文编程1-0-python源代码/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
